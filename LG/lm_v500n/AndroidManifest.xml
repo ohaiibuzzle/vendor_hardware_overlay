@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+lge/flashlmdd_lao_com/flashlmdd*"
+                android:requiredSystemPropertyName="ro.boot.hardware"
+                android:requiredSystemPropertyValue="flashlmdd"
 		android:priority="196"
 		android:isStatic="true" />
 </manifest>
